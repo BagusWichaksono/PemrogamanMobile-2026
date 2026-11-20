@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:mydj/pages/liat_jurnal_page.dart';
+import 'package:mydj/pages/lihat_jurnal_page.dart';
 import 'package:mydj/pages/buat_jurnal_page.dart';
 import 'package:mydj/pages/akun_page.dart';
 import 'package:mydj/pages/tentang_aplikasi_page.dart';
 
 class SimpleHomePage extends StatefulWidget {
-  const SimpleHomePage({super.key, required this.title});
+  const SimpleHomePage({super.key, this.title = 'Jurnal Harian Guru'});
 
   final String title;
 
